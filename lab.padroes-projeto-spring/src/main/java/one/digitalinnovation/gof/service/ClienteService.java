@@ -1,7 +1,10 @@
 package one.digitalinnovation.gof.service;
 
+import org.springframework.stereotype.Service;
+
 import one.digitalinnovation.gof.model.Cliente;
 
+@Service
 public interface ClienteService {
 
 	Iterable<Cliente> buscarTodos();
